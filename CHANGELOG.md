@@ -1,4 +1,4 @@
-## 0.5.0 (19.10.2017)
+## 0.5.0 (2017-10-19)
 
 * don't publish empty `:required` fields for JSON Schemas, by [acron0](https://github.com/acron0)
 * added parsers for `s/merge` & `st/spec`.
@@ -12,7 +12,7 @@
 [org.clojure/clojurescript "1.9.946"] is available but we use "1.9.908"
 ```
 
-## 0.4.0 (11.10.2017)
+## 0.4.0 (2017-10-11)
 
 * `or` and `and` keys are parsed correctly for JSON Schema & Swagger, Fixes [#79](https://github.com/metosin/spec-tools/issues/79)
 * **BREAKING**: `spec-tools.type` is now `spec-tools.parse` with public api of:
@@ -26,7 +26,7 @@
 [org.clojure/spec.alpha "0.1.134"] is available but we use "0.1.123"
 ```
 
-## 0.3.3 (1.9.2017)
+## 0.3.3 (2017-09-01)
 
 * `spec-tools.core/create-spec` fails with qualified keyword if they don't link to a spec, thanks to [Camilo Roca](https://github.com/carocad)
 
@@ -37,16 +37,16 @@
 [org.clojure/clojurescript "1.9.908"] is available but we use "1.9.660"
 ```
 
-## 0.3.2 (29.7.2017)
+## 0.3.2 (2017-07-29)
 
 * map `spec-tools.spec` predicate symbols into `clojure.core` counterparts for JSON Schema / Swagger mappings.
 
-## 0.3.1 (27.7.2017)
+## 0.3.1 (2017-07-27)
 
 * resolve `:type` from first predicate of `s/and`, thanks to [Andy Chambers](https://github.com/cddr)
 * better error messages when trying to create non-homogeneous data-specs for Vectors & Sets
 
-## 0.3.0 (30.6.2017)
+## 0.3.0 (2017-06-30)
 
 * Swagger2 integration (moved from [spec-swagger](https://github.com/metosin/spec-swagger))
   * `spec-tools.swagger.core/transform` to transform Specs into Swagger [Parameter Objects](http://swagger.io/specification/#parameterObject) and [Schema Objects](http://swagger.io/specification/#schemaObject)
